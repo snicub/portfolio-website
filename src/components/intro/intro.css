@@ -1,6 +1,6 @@
 .i{
     display: flex; 
-    height: 50vh;
+    height: 75vh;
 }
 
 .i-left{
@@ -11,7 +11,7 @@
 }
 
 .i-right{
-    flex: 1;
+    flex: 1.2;
     position: relative; 
 }
 
@@ -39,21 +39,28 @@
 .i-title-wrapper{
     height: 100%;
     animation: move 10s ease-in-out infinite alternate; 
-
 }
 
 @keyframes move{
+    0%{
+        color: #23a6d5;
+    }
+    
     25%{
         transform: translateY(-50px);
+        color: #e5b6eb;
     }
     50%{
         transform: translateY(-100px);
+        color: #f3e1b0; 
     }
     75%{
         transform: translateY(-150px);
+        color: #23a6d5;
     }
     100%{
         transform: translateY(-200px);
+        color: #23d5ab;
     }
 }
 
@@ -61,9 +68,9 @@
     height: 50px; 
     font-size: 30px;
     font-weight: bold; 
-    color: #b5eef5;
     display: flex;
     align-items: center;
+    animation: move infinite;
 }
 
 .i-scroll{
@@ -82,8 +89,9 @@
 
 .i-bg{
     clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: gradient 15s ease infinite;
+    background: linear-gradient(-45deg, #e5b6eb, #f3e1b0, #23a6d5, #23d5ab);
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -102,7 +110,6 @@
 		background-position: 0% 50%;
 	}
 }
-
 
 @media screen and (max-width: 480px){
     .i{

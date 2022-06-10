@@ -20,8 +20,10 @@ const Intro = () => {
                     </div>
                     <p className="i-desc">
                         I am a rising sophomore at Rutgers University majoring in computer science. 
-                        I focus on object oriented programmign in Java, but am exploring other langauges 
-                        such as C and HTMl. I also love content creation and playing ultimate frisbee. 
+                        I focus on object oriented programming in Java, but am exploring other langauges 
+                        such as C and HTML. I also love content creation on platforms such as TikTok and
+                        YouTube. I also play competitive ultimate frisbee! I have played since high school
+                        and currently play on my college team! Lastly, I love traveling no matter how close or far!
                     </p>
                 </div>
                 <svg
