@@ -20,8 +20,22 @@
     position: absolute;
     top: 80px;
     left: 80px;
-    background-color: #333;
+    background: linear-gradient(-45deg, #e5b6eb, #f3e1b0, #23a6d5, #23d5ab);
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
     
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 

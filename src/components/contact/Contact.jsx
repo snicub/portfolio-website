@@ -1,7 +1,7 @@
 import "./contact.css"
-import Phone from "../../img/school.jpg"
-import Email from "../../img/school.jpg"
-import Address from "../../img/school.jpg"
+import Phone from "../../img/phone.png"
+import Email from "../../img/email.png"
+import Address from "../../img/address.png"
 import { useRef } from "react"
 import emailjs from '@emailjs/browser'
 import React, { useState } from "react";
@@ -41,26 +41,27 @@ const Contact = () => {
             <div className = "c-left">
                 <h1 className="c-title">Let me answer your questions!</h1>
                      <div className="c-info">
-                        <div className="c-info-item">
+                        {/*<div className="c-info-item">
                             <img 
                             src={Phone} 
                             alt="" 
                             className="c-icon" />
-                            +1 123 456 7890
-                        </div>
+                        +1 123 456 7890 
+
+                        </div> */}
                         <div className="c-info-item">
                             <img 
                             src={Email} 
                             alt="" 
                             className="c-icon" />
-                            contact@dhan.com
+                            daniel[dot]han17[at]rutgers[dot]edu
                         </div>
                         <div className="c-info-item">
                             <img 
                             src={Address} 
                             alt="" 
                             className="c-icon" />
-                            52 College Ave, New Brunswick, NJ 08812
+                            New Brunswick, NJ 08901
                         </div>
                      </div>
                      
