@@ -10,7 +10,6 @@ const ProductList = () => {
             <p className = "pl-desc">
                 Snikizzy is a sharpshooter with rena and pheonix on valorant, don't mess
                 w him and make sure to check ur corners ong.
-                
             </p>
         </div>
         <div className = "pl-list">

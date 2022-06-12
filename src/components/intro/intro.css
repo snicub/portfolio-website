@@ -115,4 +115,14 @@
     .i{
         flex-direction: column;
     }
+
+    .i-intro{
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    .i-bg{
+        width: 150%;
+        height: 50%;
+    }
 }
