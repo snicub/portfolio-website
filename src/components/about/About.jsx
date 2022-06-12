@@ -1,44 +1,11 @@
 import "./about.css"
 import Award from "../../img/fris1.jpeg"
 import danAndLogan from "../../img/school1.JPG"
-import React,{useState} from 'react';
 
 const About = () => {
 
-    const [readMoreStudent,setReadMoreStudent]=useState(false);
-   
-    const extraContentStudent=<div>
-      <p className="a-award-desc">
-       and I plan to minor in Korean or math.
-    Even though I live close to campus, I dorm and it has been really fun 
-    so far. This upcoming semester, I hope to make more unforgettable memories. 
-      </p>
-  </div>
-
-    const linkNameStudent=readMoreStudent?'Read Less << ':'Read More >> '
-
-
-
-
-    const [readMoreFrisbee,setReadMoreFrisbee]=useState(false);
-   
-    const extraContentFrisbee=<div>
-      <p className="a-award-desc">
-      C High school ultimate frisbee teams are rare, but I was lucky enough to 
-attend a school with a team. I played JV my first year, and varsity
-                           the remaining three years. I have also played for a club team named DEVYL
-                            where I played with a regional team to compete for national championship.
-                            I currently play for the Rutgers club team, and I am hoping we can make 
-                            it to college nationals!
-      </p>
-  </div>
-
-    const linkNameFrisbee = readMoreFrisbee?'Read Less << ':'Read More >> '
-
-
   return (
     
-
     <div className = "a">
         <div className="a-left">
             <div className="a-card bg"></div>
@@ -53,30 +20,36 @@ attend a school with a team. I played JV my first year, and varsity
         
             <h1 className = "a-title">About Me</h1>
 
+                {/*
+                <p className = "a-sub">
+                    Here, you'll be able to learn more about me and what I like to do!
+                </p>
+
+                 <p className = "a-desc">
+                    this is the sescription parttdkdkdkdkdk
+                </p>*/}
                 <div className="a-award">
                     {/*<img src={Award} alt="" className="a-award-img" /> */}
                     <div className="a-award-text">
                         <h4 className = "a-award-title">Student</h4>
-                            <div className="App">
-                                <a className="read-more-link" onClick={()=>{setReadMoreStudent(!readMoreStudent)}}>
-                                    <h2 className = "a-award-desc">
-                                    Currently, I am a rising sophomore at Rutgers University in New Jersey. 
-     My major is computer science  {linkNameStudent}
-                                    </h2>
-                                </a>
-                                {readMoreStudent && extraContentStudent}
-                            </div>
                         
+                        <p className="a-award-desc">
+                            Currently, I am a rising sophomore at Rutgers University in New Jersey. 
+                            My major is computer science and I plan to minor in Korean or math.
+                            Even though I live close to campus, I dorm and it has been really fun 
+                            so far. This upcoming semester, I hope to make more unforgettable memories. 
+                        
+                        </p>
 
                         <h4 className = "a-award-title">Ultimate Frisbee</h4>
-                        <div className="App">
-                                <a className="read-more-link" onClick={()=>{setReadMoreFrisbee(!readMoreFrisbee)}}>
-                                    <h2 className = "a-award-desc">
-                                        {linkNameFrisbee}
-                                    </h2>
-                                </a>
-                                {readMoreFrisbee && extraContentFrisbee}
-                            </div>
+                        <p className="a-award-desc">
+                            High school ultimate frisbee teams are rare, but I was lucky enough to 
+                            attend a school with a team. I played JV my first year, and varsity
+                            the remaining three years. I have also played for a club team named DEVYL
+                            where I played with a regional team to compete for national championship.
+                            I currently play for the Rutgers club team, and I am hoping we can make 
+                            it to college nationals!
+                        </p>
                         
                         
                         <h4 className = "a-award-title">Content Creation</h4>
