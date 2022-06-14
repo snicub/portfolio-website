@@ -8,7 +8,7 @@ const ProductList = () => {
         <div className="pl-texts">
             <h1 className = "pl-title">Create & Inspire. It's Snikizzy</h1>
             <p className = "pl-desc">
-                Snikizzy is a sharpshooter with rena and pheonix on valorant, don't mess
+                Snikizzy is my valorant alias. Snikizzy is a sharpshooter with rena and pheonix on valorant, don't mess
                 w him and make sure to check ur corners ong.
             </p>
         </div>

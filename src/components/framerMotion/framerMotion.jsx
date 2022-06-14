@@ -16,6 +16,7 @@ const MyComponent = ({ img, text }) => {
           borderRadius: "3rem",
           boxShadow: "0px 10px 30px rgba(0,0,0,0.5)",
         }}
+        whileHover={{ scale: 1.05 }}
       >
         <motion.h2 layout="position" >
           {<img className="f-img" src={img} alt="" />}

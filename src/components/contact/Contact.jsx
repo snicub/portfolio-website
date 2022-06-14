@@ -29,13 +29,15 @@ const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
+
+        
     }
   return (
     <div className = "c">
         <div className="c-bg"></div>
         <div className="c-wrapper">
             <div className = "c-left">
-                <h1 className="c-title">Let me answer your questions!</h1>
+                <h1 className="c-title">Contact Me</h1>
                      <div className="c-info">
                         <div className="c-info-item">
                              {<Email style={{minWidth: '40px'}}/>} 
@@ -49,7 +51,7 @@ const Contact = () => {
             </div>
             <div className = "c-right">
                 <p className = "c-desc">
-                    <b>What's your story?</b> Get in touch. Always making ocntent for you ong. 
+                    <b>What's your story?</b> Down to eat at neilson dhall if you swipe me
                 </p>
                 <form ref = {formRef} onSubmit = {handleSubmit}>
                     <input  type="text" placeholder="Name" name = "user_name"/>
@@ -62,11 +64,11 @@ const Contact = () => {
                     className = "c-btn"
                     endIcon = {<SaveIcon/>} 
                     variant = "contained" 
-                    color = "primary" >
+                    color = "primary" 
+                    >
                         Submit
                     </Button>
-
-                    {done && "Success"}
+                    {done && " Sent! Daniel will hit your line as soon as possible."}
                 </form>
             </div>
         </div>

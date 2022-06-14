@@ -11,7 +11,7 @@ import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import Paper from "@material-ui/core/Paper";
 import IconButton from "@material-ui/core/IconButton";
-import Grid from '@mui/material/Grid';
+
 
 const App = () => {
   const [theme, setTheme] = useState(true);
@@ -21,6 +21,7 @@ const App = () => {
   return (
     <ThemeProvider theme={appliedTheme}>
       <Paper>
+
         <IconButton
           edge="end"
           color="inherit"
@@ -29,7 +30,6 @@ const App = () => {
         >
           {icon}
         </IconButton>
-
 
         <Intro />
         <About />
