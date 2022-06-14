@@ -38,6 +38,10 @@
     .pl-desc{
         display: none; 
     }
+    .pl-title{
+        font-size: 30px; 
+        font-weight: 300;
+    }
 
     
 

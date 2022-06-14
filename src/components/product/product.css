@@ -26,7 +26,7 @@
 }
 
 .p-img{
-    width: 85%;
+    width: 50%;
     transition: all 5s ease;
     text-align: center;
     padding: 50px 0;
@@ -34,6 +34,7 @@
 
 .p:hover .p-img{
     transform: translateY(-100%);
+    animation-duration: 2s;
 }
 
 @media screen and (max-width: 480px){
@@ -42,4 +43,8 @@
         height: 20vh;
     }
     
+    .p:hover .p-img{
+        transform: none;
+        animation-duration: none;
+    }
 }

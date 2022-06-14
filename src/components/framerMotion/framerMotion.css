@@ -1,0 +1,49 @@
+
+.f{
+   flex: 1; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.f-card{
+    background: white;
+    padding: 0.5rem 0.5rem;
+}
+
+.f-card p{
+    padding-top: 1rem;
+    line-height: 150%;
+
+}
+
+.f-expand{
+    width: 30rem; 
+}
+
+.f-img{
+    width: 300px; 
+    border-radius: 30px;
+    padding: 10px 10px;
+}
+
+.f-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 480px){
+
+    .f{
+        flex-direction: row;
+    }
+
+    .f-expand{
+        width: 100%; 
+    }
+
+
+    
+}

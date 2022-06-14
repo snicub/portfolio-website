@@ -1,7 +1,9 @@
 import "./intro.css"
 import Me from '../../img/MEPNG.png'
 
+
 const Intro = () => {
+
     return(
 
         <div className = "i">
@@ -26,7 +28,7 @@ const Intro = () => {
                         and currently play on my college team. Lastly, I love traveling no matter how close or far.
                     </p>
                 </div>
-                <svg
+              {/*   <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -81,7 +83,7 @@ const Intro = () => {
               />
             </g>
           </g>
-        </svg>
+        </svg> */}
             </div>
             <div className="i-right">
                 <div className="i-bg"></div>
@@ -89,6 +91,7 @@ const Intro = () => {
             </div>
         </div>
     )
+    
 }
 
 export default Intro

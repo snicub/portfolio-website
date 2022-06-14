@@ -1,12 +1,12 @@
 import "./productList.css"
 import Product from "../product/Product"
-import {products} from "../../data"
+import {products} from "../../productData"
 
 const ProductList = () => {
   return (
     <div className = "pl">
         <div className="pl-texts">
-            <h1 className = "pl-title">Create & Inspire. It's Snikizzy </h1>
+            <h1 className = "pl-title">Create & Inspire. It's Snikizzy</h1>
             <p className = "pl-desc">
                 Snikizzy is a sharpshooter with rena and pheonix on valorant, don't mess
                 w him and make sure to check ur corners ong.
