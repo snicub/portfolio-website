@@ -2,6 +2,9 @@ import danAndLogan from "./img/school1.JPG"
 import frisbee from "./img/fris1.jpeg"
 import nyc from "./img/nyc1.jpg"
 import tbell from "./img/tbell1.JPG"
+import hawaii from "./img/hawaii2.JPG"
+import highschool from "./img/hs1.jpg"
+import fishing from "./img/fish1.JPG"
 
 export const cards = [
     {
@@ -9,12 +12,12 @@ export const cards = [
       img: danAndLogan,
       text: 
       <p>
-      Currently, I am a rising sophomore at Rutgers University in New Jersey. 
+      I am a rising sophomore at Rutgers University in New Jersey. 
       My major is computer science and I plan to minor in Korean or math.
       I guess cs is cool and I guess it helped me make this website.
       Even though I live close to Rutgers, I dorm on campus and it has been amazing 
       so far. This upcoming semester, I hope to make more unforgettable memories 
-      and will make sure to buy a lot of pedialyte. Also I really hope I have AC tho.
+      and will make sure to buy a lot of pedialyte. I really hope I get AC tho.
       </p>,
       caption: <p>Me and Logan at our first Rutgers football game</p>,
     },
@@ -58,15 +61,42 @@ export const cards = [
       id: 4,
       img: nyc,
       text: <p>
-      Traveled dummy far miles to Hawaii with my family last summer visiting 
+        Traveled dummy far miles to Hawaii with my family last summer visiting 
       Oahu and the Big Island. Left and right, there was plenty of amazing food, 
       people, culture, and nature. I really like ahi poke and ube ice cream ong. 
-      I also enjoy day trips to New York City, observing the modernity around me and exploring 
-      new exciting places like the Lincoln Tunnel. This summer I 
-      will be studying abroad at Ewha University, a college in 
-      Seoul, South Korea. I am extremely excited to study in a different country and plan to share
-      my experiences on myspace.
+      I also enjoy day trips to NYC, observing the modernity around me and exploring 
+      new exciting places like the Lincoln Tunnel. 
     </p>,
     caption: <p>Min, Elora, Dan</p>,
     },
+
+    {
+      id: 5,
+      img: highschool,
+      text: <p>
+      I went to Watchung Hills Regional High School in Warren, NJ. 
+      I graduated in June 2021. I played frisbee. I read books.
+      I ate a lot of calzones and double fried french fries. I got a parking passs my junior
+      year which was pretty cool I guess. Ms. Nunez if you're reading
+      this you're goated ong. Oh and I got written up once 
+      for being late to zoom class. 
+ 
+    </p>,
+    caption: <p>Out the mud</p>,
+    },
+
+    {
+      id: 6,
+      img: fishing,
+      text: <p>
+      I got into fishing my senior year of high school. It's pretty fun and 
+      relaxing. I'm into freshwater fishing and even though I suck at catching bass,
+      catching small sunfish is still fun. I like going by myself and spending hours
+      on the pond side. I've caught one bass with a ned rig. I guess they don't
+      want my topwaters or crankbaits. 
+    </p>,
+    caption: <p>Crappie? Blue gill? idk</p>,
+    },
+    
+   
   ];
