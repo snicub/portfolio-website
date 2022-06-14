@@ -14,7 +14,7 @@ export const cards = [
       I guess cs is cool and I guess it helped me make this website.
       Even though I live close to Rutgers, I dorm on campus and it has been amazing 
       so far. This upcoming semester, I hope to make more unforgettable memories 
-      and will make sure to buy a lot of pedialytes. Also I really hope I have AC tho.
+      and will make sure to buy a lot of pedialyte. Also I really hope I have AC tho.
       </p>,
       caption: <p>Me and Logan at our first Rutgers football game</p>,
     },
