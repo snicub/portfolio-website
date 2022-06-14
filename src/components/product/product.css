@@ -26,14 +26,14 @@
 }
 
 .p-img{
-    width: 50%;
-    transition: all 5s ease;
+    width: 100%;
+    transition: all 2s ease;
     text-align: center;
-    padding: 50px 0;
+    padding: 0px 0;
 }
 
 .p:hover .p-img{
-    transform: translateY(-100%);
+    transform: translateY(-10%);
     animation-duration: 2s;
 }
 

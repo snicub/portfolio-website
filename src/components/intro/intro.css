@@ -1,10 +1,15 @@
 .i{
     display: flex; 
-    height: 75vh;
 }
 
 .i-left{
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i-desc{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,6 +121,10 @@
         flex-direction: column;
     }
 
+    .i-left{
+        flex: none;
+    }
+
     .i-intro{
         font-size: 15px;
         font-weight: 100;
@@ -144,6 +153,9 @@
     }
 
     .i-bg{
+        display: none;
+    }
+    .i-right{
         display: none;
     }
 }

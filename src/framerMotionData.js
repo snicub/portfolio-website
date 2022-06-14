@@ -16,6 +16,7 @@ export const cards = [
       so far. This upcoming semester, I hope to make more unforgettable memories 
       and will make sure to buy a lot of pedialytes. Also I really hope I have AC tho.
       </p>,
+      caption: <p>Me and Logan at our first Rutgers football game</p>,
     },
     {
       id: 2,
@@ -30,6 +31,10 @@ export const cards = [
         it to college nationals! I guess throwing frisbees at cookouts and family functions
         was good practice after all.
     </p>,
+
+    caption: <p>Rutgers Fall 2021 Frisbee Tournament</p>,
+
+
     },
     {
       id: 3,
@@ -44,8 +49,10 @@ export const cards = [
       cause I chase clout and I continued to create content on TikTok, eventually
       extending my content to YouTube as well. Chicken Chalupas with 
       spicy ranch sauce are like dat. 
-    
     </p>,
+
+    caption: <p>Praying in dry storage</p>,
+
     },
     {
       id: 4,
@@ -60,6 +67,6 @@ export const cards = [
       Seoul, South Korea. I am extremely excited to study in a different country and plan to share
       my experiences on myspace.
     </p>,
-
+    caption: <p>Min, Elora, Dan</p>,
     },
   ];

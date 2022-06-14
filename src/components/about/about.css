@@ -1,13 +1,20 @@
 .a{
-    padding: 50px 100px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
+.a-wrapper{
+    padding: 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .a-texts{
-    width: 100%;
+    width: 65%;
 }
 
 .a-title{
@@ -24,25 +31,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 
 
 
 @media screen and (max-width: 480px){
-    .a{
-        padding: 10px; 
-    }
+ 
 
     .a-texts{
         width: 100%;
-    
     }
 
     .a-title{
         font-size: 30px; 
         font-weight: 300;
+    }
 
+    .a-wrapper{
+        padding: 0px 50px 50px;
     }
 
 

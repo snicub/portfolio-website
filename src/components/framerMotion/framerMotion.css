@@ -1,6 +1,5 @@
 
 .f{
-   flex: 1; 
    display: flex;
    justify-content: center;
    align-items: center;
@@ -12,11 +11,24 @@
 }
 
 .f-card p{
+    padding-top: .5rem;
     line-height: 150%;
+    width: 100%; 
 }
+
+.f-align{
+    display: inline-block
+}
+
 
 .f-expand{
     width: 30rem; 
+}
+
+.f-caption{
+    width: 0;
+  min-width: 100%;
+    font-weight: 100;
 }
 
 .f-img{
@@ -32,16 +44,11 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 480px){
 
-    .f{
-        flex-direction: row;
-    }
+@media screen and (max-width: 480px){
 
     .f-expand{
         width: 100%; 
     }
-
-
     
 }
