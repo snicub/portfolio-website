@@ -2,7 +2,6 @@ import danAndLogan from "./img/school1.JPG"
 import frisbee from "./img/fris1.jpeg"
 import nyc from "./img/nyc1.jpg"
 import tbell from "./img/tbell1.JPG"
-import hawaii from "./img/hawaii2.JPG"
 import highschool from "./img/hs1.jpg"
 import fishing from "./img/fish1.JPG"
 

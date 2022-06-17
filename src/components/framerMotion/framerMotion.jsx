@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import "./framerMotion.css";
 import { useState } from "react";
 
-const MyComponent = ({ img, text, caption}) => {
+const MyComponent = ({ img, text, caption }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -18,20 +18,16 @@ const MyComponent = ({ img, text, caption}) => {
         }}
         whileHover={{ scale: 1.05 }}
       >
-        <motion.h2 className = "f-align" layout="position" >
-
+        <motion.h2 className="f-align" layout="position">
           {<img className="f-img" src={img} alt="" />}
 
-          {<div className = "f-caption">{caption} </div>}
-
-
-
+          {<div className="f-caption">{caption} </div>}
         </motion.h2>
         
         <AnimatePresence>
           {isOpen && (
             <motion.div
-              className = "f-expand"
+              className="f-expand"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}

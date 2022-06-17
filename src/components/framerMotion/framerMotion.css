@@ -14,6 +14,7 @@
     padding-top: .5rem;
     line-height: 150%;
     width: 100%; 
+    color: black; 
 }
 
 .f-align{
@@ -23,11 +24,12 @@
 
 .f-expand{
     width: 30rem; 
+    padding: .5rem; 
 }
 
 .f-caption{
     width: 0;
-  min-width: 100%;
+    min-width: 100%;
     font-weight: 100;
 }
 

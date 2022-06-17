@@ -21,16 +21,14 @@ const App = () => {
   return (
     <ThemeProvider theme={appliedTheme}>
       <Paper>
-
         <IconButton
           edge="end"
           color="inherit"
           aria-label="mode"
           onClick={() => setTheme(!theme)}
         >
-          {icon}
+        {icon}
         </IconButton>
-
         <Intro />
         <About />
         <ProductList />

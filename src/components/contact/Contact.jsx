@@ -29,8 +29,6 @@ const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
-
-        
     }
   return (
     <div className = "c">
@@ -54,11 +52,12 @@ const Contact = () => {
                     <b>What's your story?</b> Down to eat at neilson dhall if you swipe me
                 </p>
                 <form ref = {formRef} onSubmit = {handleSubmit}>
+
                     <input  type="text" placeholder="Name" name = "user_name"/>
                     <input type="text" placeholder="Subject" name = "user_subject"/>
                     <input type="text" placeholder="Email" name = "user_email"/>
                     <textarea rows="5" placeholder = "Message" name = "message" />
-
+                    
                     <Button 
                     onClick={handleSubmit}
                     className = "c-btn"
