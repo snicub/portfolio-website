@@ -15,6 +15,7 @@
     line-height: 150%;
     width: 100%; 
     color: black; 
+
 }
 
 .f-align{
@@ -45,7 +46,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 
 @media screen and (max-width: 480px){
 

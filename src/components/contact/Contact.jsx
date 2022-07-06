@@ -8,7 +8,6 @@ import Email from '@material-ui/icons/Email'
 import Address from '@material-ui/icons/Home'
 import Button from '@mui/material/Button';
 
-
 const Contact = () => {
     const formRef = useRef();
     const [done, setDone] = useState(false);
@@ -38,11 +37,15 @@ const Contact = () => {
                 <h1 className="c-title">Contact Me</h1>
                      <div className="c-info">
                         <div className="c-info-item">
-                             {<Email style={{minWidth: '40px'}}/>} 
+                             {<Email 
+                             style={{minWidth: '40px'}}
+                             />} 
                             daniel[dot]han17[at]rutgers[dot]edu
                         </div>
                         <div className="c-info-item">
-                            {<Address style={{minWidth: '40px'}} />} 
+                            {<Address 
+                            style={{minWidth: '40px'}} 
+                            />} 
                             New Brunswick, NJ 08901
                         </div>
                      </div>

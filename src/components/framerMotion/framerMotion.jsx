@@ -16,9 +16,10 @@ const MyComponent = ({ img, text, caption }) => {
           borderRadius: "3rem",
           boxShadow: "0px 10px 30px rgba(0,0,0,0.5)",
         }}
+        
         whileHover={{ scale: 1.05 }}
       >
-        <motion.h2 className="f-align" layout="position">
+        <motion.h2  className="f-align" >
           {<img className="f-img" src={img} alt="" />}
 
           {<div className="f-caption">{caption} </div>}
@@ -31,10 +32,13 @@ const MyComponent = ({ img, text, caption }) => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}
-              exit={{ opacity: 0 }}
             >
               <p>{text}</p>
             </motion.div>
+          )}
+
+          {!isOpen && (
+            <motion.div> </motion.div>
           )}
         </AnimatePresence>
       </motion.div>
@@ -42,4 +46,7 @@ const MyComponent = ({ img, text, caption }) => {
   );
 };
 
+
+
 export default MyComponent;
+
