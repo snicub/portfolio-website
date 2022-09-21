@@ -47,6 +47,11 @@
     justify-content: space-between;
 }
 
+.f-expand{
+    display: flex; 
+    
+}
+
 @media screen and (max-width: 480px){
 
     .f-expand{

@@ -11,11 +11,11 @@ export const cards = [
       img: danAndLogan,
       text: 
       <p>
-      I am a rising sophomore at Rutgers University in New Jersey. 
-      My major is computer science and I plan to minor in Korean or math.
+      I am a sophomore at Rutgers University in New Jersey majoring in 
+      computer science with a potential minor in Korean or math.
       I guess cs is cool and I guess it helped me make this website.
       Even though I live close to Rutgers, I dorm on campus and it has been amazing 
-      so far. This upcoming semester, I hope to make more unforgettable memories 
+      so far. For this semester, I hope to make more unforgettable memories 
       and will make sure to buy a lot of pedialyte. I really hope I get AC tho.
       </p>,
       caption: <p>Me and Logan at our first Rutgers football game</p>,
@@ -97,5 +97,4 @@ export const cards = [
     caption: <p>Crappie? Blue gill? idk</p>,
     },
     
-   
   ];

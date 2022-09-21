@@ -5,6 +5,10 @@ import { useState } from "react";
 const MyComponent = ({ img, text, caption }) => {
   const [isOpen, setIsOpen] = useState(false);
 
+
+
+/* THIS IS THE ORIGNAL VERSION */
+
   return (
     <div className="f">
       <motion.div
@@ -16,31 +20,35 @@ const MyComponent = ({ img, text, caption }) => {
           borderRadius: "3rem",
           boxShadow: "0px 10px 30px rgba(0,0,0,0.5)",
         }}
-        
         whileHover={{ scale: 1.05 }}
       >
+
         <motion.h2  className="f-align" >
           {<img className="f-img" src={img} alt="" />}
 
           {<div className="f-caption">{caption} </div>}
         </motion.h2>
         
-        <AnimatePresence>
+        
           {isOpen && (
             <motion.div
               className="f-expand"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 1 }}  
             >
               <p>{text}</p>
             </motion.div>
           )}
 
           {!isOpen && (
-            <motion.div> </motion.div>
+            <motion.div
+            className="f-expand"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1 }}
+            > </motion.div>
           )}
-        </AnimatePresence>
       </motion.div>
     </div>
   );

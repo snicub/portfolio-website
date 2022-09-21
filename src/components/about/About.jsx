@@ -14,7 +14,13 @@ const About = () => {
                 </p>
             <div className = "a-list"> 
               {cards.map(card => (
-                  <FramerMotion key = {card.id} img ={card.img} text = {card.text} caption = {card.caption}/>
+                  <FramerMotion 
+                  
+                  key = {card.id} 
+                  img ={card.img} 
+                  text = {card.text} 
+                  caption = {card.caption}
+                  />
               ))}
         </div>
         </div>
