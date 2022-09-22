@@ -21,9 +21,9 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                        I am a rising sophomore at Rutgers University majoring in computer science. 
-                        I focus on object oriented programming in Java, but am exploring other langauges 
-                        such as C and HTML. I enjoy content creation on platforms such as TikTok and
+                        I am a sophomore at Rutgers University majoring in computer science. 
+                        Currently, I focus on writing programs in C and proving theorems in Lean.
+                        I enjoy content creation on platforms such as TikTok and
                         YouTube. I also play competitive ultimate frisbee! I have played since high school
                         and currently play on my college team. Lastly, I love traveling no matter how close or far.
                     </p>
