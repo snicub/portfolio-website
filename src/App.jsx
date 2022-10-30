@@ -28,6 +28,7 @@ const App = () => {
           onClick={() => setTheme(!theme)}
         >
         {icon}
+        
         </IconButton>
         <Intro />
         <About />

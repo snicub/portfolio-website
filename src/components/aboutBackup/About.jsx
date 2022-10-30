@@ -34,10 +34,11 @@ const About = () => {
                         <h4 className = "a-award-title">Student</h4>
                         
                         <p className="a-award-desc">
-                            Currently, I am a rising sophomore at Rutgers University in New Jersey. 
+                            Currently, I am a sophomore at Rutgers University in New Jersey. 
                             My major is computer science and I plan to minor in Korean or math.
                             Even though I live close to campus, I dorm and it has been really fun 
-                            so far. This upcoming semester, I hope to make more unforgettable memories. 
+                            so far. College is truly what you make of it and these semesters have been
+                            flying. 
                         
                         </p>
 

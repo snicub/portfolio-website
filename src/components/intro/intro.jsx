@@ -22,10 +22,11 @@ const Intro = () => {
                     </div>
                     <p className="i-desc">
                         I am a sophomore at Rutgers University majoring in computer science. 
-                        Currently, I focus on writing programs in C and proving theorems in Lean.
+                        Currently, I focus on writing programs in C and learning about computer architecture. 
                         I enjoy content creation on platforms such as TikTok and
-                        YouTube. I also play competitive ultimate frisbee! I have played since high school
-                        and currently play on my college team. Lastly, I love traveling no matter how close or far.
+                        YouTube. I also play competitive ultimate frisbee and currently play for the Rutgers club team. 
+                        I also love traveling no matter how close or far.
+                        I am also an academic weapon. 
                     </p>
                 </div>
               {/*   <svg

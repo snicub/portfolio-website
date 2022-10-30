@@ -1,3 +1,4 @@
+// eslint-disable-next-line 
 import { AnimatePresence, motion } from "framer-motion";
 import "./framerMotion.css";
 import { useState } from "react";

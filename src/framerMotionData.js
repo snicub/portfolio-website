@@ -11,14 +11,14 @@ export const cards = [
       img: danAndLogan,
       text: 
       <p>
-      I am a sophomore at Rutgers University in New Jersey majoring in 
-      computer science with a potential minor in Korean or math.
-      I guess cs is cool and I guess it helped me make this website.
-      Even though I live close to Rutgers, I dorm on campus and it has been amazing 
-      so far. For this semester, I hope to make more unforgettable memories 
-      and will make sure to buy a lot of pedialyte. I really hope I get AC tho.
+       Currently, I am a sophomore at Rutgers University in New Jersey. 
+       Ig cs is cool and ig it helped me make this website. lol.
+      My major is computer science and I plan to minor in Korean or math.
+      Even though I live close to campus, I dorm and it has been really fun 
+      so far. I also believe C's get degrees. 
       </p>,
       caption: <p>Me and Logan at our first Rutgers football game</p>,
+
     },
     {
       id: 2,
@@ -51,7 +51,7 @@ export const cards = [
       cause I chase clout and I continued to create content on TikTok, eventually
       extending my content to YouTube as well. Chicken Chalupas with 
       spicy ranch sauce are like dat. 
-    </p>,
+      </p>,
 
     caption: <p>Praying in dry storage</p>,
 
@@ -60,11 +60,13 @@ export const cards = [
       id: 4,
       img: nyc,
       text: <p>
-        Traveled dummy far miles to Hawaii with my family last summer visiting 
+
+      Traveled dummy far miles to Hawaii with my family last summer visiting 
       Oahu and the Big Island. Left and right, there was plenty of amazing food, 
       people, culture, and nature. I really like ahi poke and ube ice cream ong. 
       I also enjoy day trips to NYC, observing the modernity around me and exploring 
       new exciting places like the Lincoln Tunnel. 
+
     </p>,
     caption: <p>Min, Elora, Dan</p>,
     },
@@ -78,7 +80,7 @@ export const cards = [
       I ate a lot of calzones and double fried french fries. I got a parking passs my junior
       year which was pretty cool I guess. Ms. Nunez if you're reading
       this you're goated ong. Oh and I got written up once 
-      for being late to zoom class. 
+      for being late to zoom class.
  
     </p>,
     caption: <p>Out the mud</p>,
