@@ -26,4 +26,4 @@ yarn-error.log*
 personalnotes.txt
 
 #image files
-/src/img
+/src/img/
