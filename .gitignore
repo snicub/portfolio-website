@@ -22,8 +22,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+#image files
+/src/img/
+
 # personal
 personalnotes.txt
 
-#image files
-/src/img/
+
