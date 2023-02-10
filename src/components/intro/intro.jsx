@@ -17,16 +17,16 @@ const Intro = () => {
                             <div className="i-title-item">Ultimate Frisbee Player</div>
                             <div className="i-title-item">Content Creator</div>
                             <div className="i-title-item">Christopher Columbus</div>
-                            <div className="i-title-item">Chef ong</div>
+                            <div className="i-title-item">Personal Chef</div>
                         </div>
                     </div>
                     <p className="i-desc">
                         I am a sophomore at Rutgers University majoring in computer science. 
-                        Currently, I focus on writing programs in C and learning about computer architecture. 
-                        I enjoy content creation on platforms such as TikTok and
-                        YouTube. I also play competitive ultimate frisbee and currently play for the Rutgers club team. 
+                        Currently, I am an intern at Colgate Palmolive focusing on writing C programs for IoT devices. 
+                        I also enjoy content creation on TikTok and
+                        YouTube. In my free time, I play competitive ultimate frisbee and currently play for the Rutgers club team. 
                         I also love traveling no matter how close or far.
-                        I am also an academic weapon. 
+                        Some might call me an academic weapon. 
                     </p>
                 </div>
               {/*   <svg

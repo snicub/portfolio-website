@@ -13,8 +13,8 @@ export const cards = [
       <p>
        Currently, I am a sophomore at Rutgers University in New Jersey. 
        Ig cs is cool and ig it helped me make this website. lol.
-      My major is computer science and I plan to minor in Korean or math.
-      Even though I live close to campus, I dorm and it has been really fun 
+      My major is computer science. ig you know that by now. 
+      Even though I live close to campus, I still dorm and it has been really fun 
       so far. I also believe C's get degrees. 
       </p>,
       caption: <p>Me and Logan at our first Rutgers football game</p>,
@@ -49,7 +49,7 @@ export const cards = [
       expecting a lot of engagement, but I woke up the next day and saw 
       that my video had reached thousands of views. This motivated me
       cause I chase clout and I continued to create content on TikTok, eventually
-      extending my content to YouTube as well. Chicken Chalupas with 
+      extending my content to YouTube as well. Chicken chalupas with 
       spicy ranch sauce are like dat. 
       </p>,
 
@@ -61,9 +61,10 @@ export const cards = [
       img: nyc,
       text: <p>
 
-      Traveled dummy far miles to Hawaii with my family last summer visiting 
-      Oahu and the Big Island. Left and right, there was plenty of amazing food, 
-      people, culture, and nature. I really like ahi poke and ube ice cream ong. 
+      Some might just call me a flaneur. My most memorable trips have been to Hawaii, visiting Oahu and the Big Island. 
+      Another is South Korea, where I studied abroad at Ewha Womans University. The rizz was so free. 
+      Oahu and the Big Island. No matter how far I went, there was plenty of amazing food, 
+      people, culture, and nature. I really like ahi poke and ube ice cream ong and lamb skewers. ty JJ. 
       I also enjoy day trips to NYC, observing the modernity around me and exploring 
       new exciting places like the Lincoln Tunnel. 
 
@@ -78,9 +79,8 @@ export const cards = [
       I went to Watchung Hills Regional High School in Warren, NJ. 
       I graduated in June 2021. I played frisbee. I read books.
       I ate a lot of calzones and double fried french fries. I got a parking passs my junior
-      year which was pretty cool I guess. Ms. Nunez if you're reading
-      this you're goated ong. Oh and I got written up once 
-      for being late to zoom class.
+      year which was pretty cool I guess. Oh and I got written up once 
+      for being late to zoom class lol. 
  
     </p>,
     caption: <p>Out the mud</p>,

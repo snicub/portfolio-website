@@ -40,7 +40,7 @@ const Contact = () => {
                              {<Email 
                              style={{minWidth: '40px'}}
                              />} 
-                            daniel[dot]han17[at]rutgers[dot]edu
+                            daniel.han17@rutgers.edu
                         </div>
                         <div className="c-info-item">
                             {<Address 
@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
             <div className = "c-right">
                 <p className = "c-desc">
-                    <b>What's your story?</b> Down to eat at neilson dhall if you swipe me
+                    <b>What's your story?</b> mine is competitive eating at the dining hall 
                 </p>
                 <form ref = {formRef} onSubmit = {handleSubmit}>
 
