@@ -2,6 +2,8 @@ import linkedin from "./img/linkedinSite.png"
 import youtube from "./img/youtubeSite.png"
 import tiktok from "./img/tiktokSite.png"
 import github from "./img/githubSite.png"
+import blog from "./img/blog.jpg"
+import spotify from "./img/spotify.png"
 
 export const products = [
     {
@@ -28,12 +30,12 @@ export const products = [
     },
     {
       id: 5,
-      img: "https://i.ytimg.com/an_webp/LVhx7IcxijA/mqdefault_6s.webp?du=3000&sqp=CICzj5UG&rs=AOn4CLBKq5-crrNzWe5LGd8H7u6_bz3Fyw",
-      link: "https://www.youtube.com/watch?v=LVhx7IcxijA",
+      img: blog,
+      link: "https://dnfcuber.wixsite.com/snikizzy",
     },
     {
       id: 6,
-      img: "https://i9.ytimg.com/vi_webp/cHpIc5XRbAA/mqdefault.webp?v=60084457&sqp=CJznj5UG&rs=AOn4CLCRFAuzbtU2GM6--GctI_BJBxSF2w",
-      link: "https://vimeo.com/502613807/75c4208c35",
+      img: spotify,
+      link: "https://open.spotify.com/user/xmihx60piva1cse4bl4yucnmk",
     },
   ];
