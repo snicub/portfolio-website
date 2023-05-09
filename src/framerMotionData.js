@@ -11,9 +11,9 @@ export const cards = [
       img: danAndLogan,
       text: 
       <p>
-       Currently, I am a sophomore at Rutgers University in New Jersey. 
-       Ig cs is cool and ig it helped me make this website. lol.
-      My major is computer science. ig you know that by now. 
+       I attend Rutgers University in New Jersey. Ru rah rah lol. 
+       Ig cs is cool and ig it helped me make this website.
+      My major is computer science. ig you know that by now. I'm also double majoring in Korean.
       Even though I live close to campus, I still dorm and it has been really fun 
       so far. I also believe C's get degrees. 
       </p>,
@@ -62,14 +62,14 @@ export const cards = [
       text: <p>
 
       Some might just call me a flaneur. My most memorable trips have been to Hawaii, South Korea, and Montreal.
-      I traveled with family in Hawaii, studied abroad at Ewha womans univeristy, and had a friends trip to Montreal. 
+      I traveled with family in Hawaii, studied abroad at Ewha womans univeristy in SK, and had a friends trip to Montreal. 
       No matter how far or close I went, there was plenty of amazing food, 
-      people, culture, nature, and memories. I really like ahi poke and ube ice cream ong and lamb skewers. ty JJ. 
+      people, culture, nature, and memories. I really like ahi poke and ube ice cream and lamb skewers. ty JJ. 
       I also enjoy day trips to NYC, observing the modernity around me and exploring 
       new exciting places like the Lincoln Tunnel. 
 
     </p>,
-    caption: <p>FLaneur in Montreal</p>,
+    caption: <p>Flaneur in Montreal</p>,
     },
 
     {
@@ -77,10 +77,9 @@ export const cards = [
       img: colgate,
       text: <p>
       I am currently an intern at Colgate-Palmolive where I work on embedded systems.
-      It's been a really fun and interesting time learning how my degree is used in industry.
+      It's been a really fun and an interesting time learning how my degree is used in industry.
       My first project was printing sensor data connected to an MCU via I2C. I had no idea how
       to code embedded, so this project taught me a lot. My next project will be full stack!
- 
     </p>,
     caption: <p>Out the mud</p>,
     },
