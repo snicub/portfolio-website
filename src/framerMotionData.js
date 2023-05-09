@@ -1,8 +1,8 @@
 import danAndLogan from "./img/school1.JPG"
-import frisbee from "./img/fris1.jpeg"
-import nyc from "./img/nyc1.jpg"
+import frisbee from "./img/newfris.JPG"
+import montreal from "./img/montreal.JPG"
 import tbell from "./img/tbell1.JPG"
-import highschool from "./img/hs1.jpg"
+import colgate from "./img/colgate.JPG"
 import fishing from "./img/fish1.JPG"
 
 export const cards = [
@@ -34,7 +34,7 @@ export const cards = [
         was good practice after all.
     </p>,
 
-    caption: <p>Rutgers Fall 2021 Frisbee Tournament</p>,
+    caption: <p>Rutgers Club Frisbee</p>,
 
 
     },
@@ -50,7 +50,7 @@ export const cards = [
       that my video had reached thousands of views. This motivated me
       cause I chase clout and I continued to create content on TikTok, eventually
       extending my content to YouTube as well. Chicken chalupas with 
-      spicy ranch sauce are like dat. 
+      spicy ranch sauce are like dat. You can find my YouTube & TikTok below!
       </p>,
 
     caption: <p>Praying in dry storage</p>,
@@ -58,29 +58,28 @@ export const cards = [
     },
     {
       id: 4,
-      img: nyc,
+      img: montreal,
       text: <p>
 
-      Some might just call me a flaneur. My most memorable trips have been to Hawaii, visiting Oahu and the Big Island. 
-      Another is South Korea, where I studied abroad at Ewha Womans University. The rizz was so free. 
-      Oahu and the Big Island. No matter how far I went, there was plenty of amazing food, 
-      people, culture, and nature. I really like ahi poke and ube ice cream ong and lamb skewers. ty JJ. 
+      Some might just call me a flaneur. My most memorable trips have been to Hawaii, South Korea, and Montreal.
+      I traveled with family in Hawaii, studied abroad at Ewha womans univeristy, and had a friends trip to Montreal. 
+      No matter how far or close I went, there was plenty of amazing food, 
+      people, culture, nature, and memories. I really like ahi poke and ube ice cream ong and lamb skewers. ty JJ. 
       I also enjoy day trips to NYC, observing the modernity around me and exploring 
       new exciting places like the Lincoln Tunnel. 
 
     </p>,
-    caption: <p>Min, Elora, Dan</p>,
+    caption: <p>FLaneur in Montreal</p>,
     },
 
     {
       id: 5,
-      img: highschool,
+      img: colgate,
       text: <p>
-      I went to Watchung Hills Regional High School in Warren, NJ. 
-      I graduated in June 2021. I played frisbee. I read books.
-      I ate a lot of calzones and double fried french fries. I got a parking passs my junior
-      year which was pretty cool I guess. Oh and I got written up once 
-      for being late to zoom class lol. 
+      I am currently an intern at Colgate-Palmolive where I work on embedded systems.
+      It's been a really fun and interesting time learning how my degree is used in industry.
+      My first project was printing sensor data connected to an MCU via I2C. I had no idea how
+      to code embedded, so this project taught me a lot. My next project will be full stack!
  
     </p>,
     caption: <p>Out the mud</p>,
