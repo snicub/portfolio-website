@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.87eb7118.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.798b11a2.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.798b11a2.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.b4b28a34.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.b4b28a34.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.259ec2b4.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.259ec2b4.js.map",
     "static/js/2.2155bfe0.chunk.js": "/portfolio-website/static/js/2.2155bfe0.chunk.js",
@@ -12,13 +12,13 @@
     "static/js/2.2155bfe0.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.2155bfe0.chunk.js.LICENSE.txt",
     "static/media/MEPNG.6a147f2a.png": "/portfolio-website/static/media/MEPNG.6a147f2a.png",
     "static/media/blog.9a4d66bc.jpg": "/portfolio-website/static/media/blog.9a4d66bc.jpg",
+    "static/media/colgate.3818e8a3.JPG": "/portfolio-website/static/media/colgate.3818e8a3.JPG",
     "static/media/fish1.b421e25b.JPG": "/portfolio-website/static/media/fish1.b421e25b.JPG",
-    "static/media/fris1.969f2e90.jpeg": "/portfolio-website/static/media/fris1.969f2e90.jpeg",
     "static/media/githubSite.8916a46e.png": "/portfolio-website/static/media/githubSite.8916a46e.png",
-    "static/media/hs1.6777707e.jpg": "/portfolio-website/static/media/hs1.6777707e.jpg",
     "static/media/linkedinSite.5380adbb.png": "/portfolio-website/static/media/linkedinSite.5380adbb.png",
-    "static/media/nyc1.25827391.jpg": "/portfolio-website/static/media/nyc1.25827391.jpg",
-    "static/media/school1.82324c8a.JPG": "/portfolio-website/static/media/school1.82324c8a.JPG",
+    "static/media/montreal.98e45bb5.JPG": "/portfolio-website/static/media/montreal.98e45bb5.JPG",
+    "static/media/newfris.98fa53f6.JPG": "/portfolio-website/static/media/newfris.98fa53f6.JPG",
+    "static/media/school1.9dd7620d.JPG": "/portfolio-website/static/media/school1.9dd7620d.JPG",
     "static/media/spotify.2e666232.png": "/portfolio-website/static/media/spotify.2e666232.png",
     "static/media/tbell1.21a75e8b.JPG": "/portfolio-website/static/media/tbell1.21a75e8b.JPG",
     "static/media/tiktokSite.a2226e1e.png": "/portfolio-website/static/media/tiktokSite.a2226e1e.png",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.259ec2b4.js",
     "static/js/2.2155bfe0.chunk.js",
     "static/css/main.87eb7118.chunk.css",
-    "static/js/main.798b11a2.chunk.js"
+    "static/js/main.b4b28a34.chunk.js"
   ]
 }
