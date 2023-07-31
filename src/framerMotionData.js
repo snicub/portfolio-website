@@ -14,7 +14,7 @@ export const cards = [
        I attend Rutgers University in New Jersey. Ru rah rah lol. 
        Ig cs is cool and ig it helped me make this website.
       My major is computer science. ig you know that by now. I'm also double majoring in Korean.
-      Even though I live close to campus, I still dorm and it has been really fun 
+      Even though I live close to campus, I dorm and it has been really fun 
       so far. I also believe C's get degrees. 
       </p>,
       caption: <p>Me and Logan at our first Rutgers football game</p>,
@@ -76,10 +76,11 @@ export const cards = [
       id: 5,
       img: colgate,
       text: <p>
-      I am currently an intern at Colgate-Palmolive where I work on embedded systems.
+      I am currently an intern at Colgate-Palmolive where I worked on embedded systems on my first project, and now on full stack
+      developemnt.
       It's been a really fun and an interesting time learning how my degree is used in industry.
-      My first project was printing sensor data connected to an MCU via I2C. I had no idea how
-      to code embedded, so this project taught me a lot. My next project will be full stack!
+      In the embedded project, Ip printed sensor data connected to an MCU via I2C. I had no idea how
+      to code embedded, so this project taught me a lot haha. 
     </p>,
     caption: <p>Out the mud</p>,
     },

@@ -21,10 +21,10 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                        I am a sophomore at Rutgers University majoring in computer science. 
-                        Currently, I am an intern at Colgate-Palmolive focusing on writing C programs for IoT devices. 
+                        I'm a junior at Rutgers University majoring in computer science. 
+                        Currently, I am an intern at Colgate-Palmolive working in full stack development.  
                         I also enjoy content creation on TikTok and
-                        YouTube. In my free time, I play competitive ultimate frisbee and currently play for the Rutgers club team. 
+                        YouTube. In my free time, I play competitive ultimate frisbee and play for the Rutgers club team. 
                         I also love traveling no matter how close or far.
                         Some might call me an academic weapon. 
                     </p>
