@@ -21,10 +21,9 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                        I'm a junior at Rutgers University majoring in computer science. 
-                        Currently, I am an intern at Colgate-Palmolive working in full stack development.  
-                        I also enjoy content creation on TikTok and
-                        YouTube. In my free time, I play competitive ultimate frisbee and play for the Rutgers club team. 
+                        I'm a senior at Rutgers University majoring in computer science. 
+                        Currently, I am an intern at Nestle Nespresso working in web dev.  
+                         In my free time, I enjoy content creation, playing ultimate frisbee, and cooking.
                         I also love traveling no matter how close or far.
                         Some might call me an academic weapon. 
                     </p>

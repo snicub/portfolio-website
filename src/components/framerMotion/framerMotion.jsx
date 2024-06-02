@@ -8,7 +8,7 @@ const MyComponent = ({ img, text, caption }) => {
 
 
 
-/* THIS IS THE ORIGNAL VERSION */
+/* original version*/
 
   return (
     <div className="f">

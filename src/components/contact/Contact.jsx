@@ -46,7 +46,7 @@ const Contact = () => {
                             {<Address 
                             style={{minWidth: '40px'}} 
                             />} 
-                            New Brunswick, NJ 08901
+                            Green Brook, NJ
                         </div>
                      </div>
             </div>
